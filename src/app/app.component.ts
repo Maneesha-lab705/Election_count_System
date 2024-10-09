@@ -1,5 +1,8 @@
+// @ts-ignore
+
 import { Component } from '@angular/core';
 import {RouterLink, RouterLinkActive, RouterOutlet} from '@angular/router';
+
 
 @Component({
   selector: 'app-root',
@@ -10,4 +13,10 @@ import {RouterLink, RouterLinkActive, RouterOutlet} from '@angular/router';
 })
 export class AppComponent {
   title = 'election_count';
+  protected readonly show = show;
 }
+
+function show() {
+
+}
+
